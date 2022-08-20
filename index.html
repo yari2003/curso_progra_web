@@ -4,11 +4,91 @@
         <meta charset="iso-8859-1">
         <meta name="Ejemplo" content="Documento de ejemplo">
         <meta name="keywords" content="HTML5, CSS3, JAVASCRIPT">
-        <meta name="Hola" content="soy yarissa">
         <title>Primera Pagina web</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/template.css">
     </head>
 
     <body>
+        <div id="divGeneral">
+        <header>
+            <h1 id="tituloprincipal">Este es el header de la pagina web</h1>
+            <h2>Subtitulo</h2>
+        </header>
+        <nav id="menu">
+            <ul>
+                <li>Principal</li>
+                <li>Fotos</li>
+                <li>Videos</li>
+                <li>Documentos</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
 
+        <section id="SeccionPrincipal">
+            <article class="articulo">
+                <header>
+                    <hgroup>
+                        <h1 class="TituloheaderArticulo">Titulo del articulo 1 </h1>
+                        <h2> Subtitulo del articulo 1 </h2>
+                    </hgroup>
+                 <time datetime="2022-08-13" update> Publicado el 13-08-2022 </time></time>
+                </header>
+                Este es el contenido del articulo 1
+                <footer>
+                    <p>Comentarios (0)</p>
+                </footer>
+            </article >
+            <article class="articulo"> 
+                <header>
+                    <hgroup>
+                        <h1 class="TituloheaderArticulo">Titulo del articulo 1 </h1>
+                        <h2> Subtitulo del articulo 1 </h2>
+                    </hgroup>
+                    <time datetime="2022-08-13" update> Publicado el 13-08-2022 </time></time>
+                </header>
+                Este es el contenido del articulo 2
+                <figure>
+                    <img src="https://cdn-icons-png.flaticon.com/512/5607/5607224.png">
+                    <figcaption>Esta es la descripcion de la imagen</figcaption>
+                </figure>
+            </article>
+            <article class="articulo">
+                <header>
+                    <hgroup>
+                        <h1 class="TituloheaderArticulo">Titulo del articulo 1 </h1>
+                        <h2> Subtitulo del articulo 1 </h2>
+                    </hgroup>
+                    <time datetime="2022-08-13" update> Publicado el 13-08-2022 </time></time>
+                    </hgroup>
+                </header>
+                Este es el contenido del articulo 3
+                <span>Este es <mark> etiqueta mark </mark> y es muy <em><strong>MUY</strong>importante</em></span>
+                <span> Me gusto la pelicula <cite>Avengers</cite></span>
+            </article>
+        </section>
+
+        <aside id="sidebar">
+            <blockquote>
+                Mensaje numero uno
+            </blockquote>
+            <blockquote>
+                Mensaje numero dos
+            </blockquote>
+            <blockquote>
+                Mensaje numero tres
+            </blockquote>
+            <blockquote>
+                Mensaje numero cuatro
+            </blockquote>
+        </aside>
+
+        <footer id="footer">
+            <small>Los derechos reservados para el curso de programacion web 1 UVG 2022</small> 
+            <address>
+                <a href= ""></a>
+            </address>
+        </footer>
+    </div>
     </body>
 </html>

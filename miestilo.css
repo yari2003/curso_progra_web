@@ -1,0 +1,56 @@
+/*Referencia por palabra clave del elemento*/
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*Referencia por el atributo ID*/
+#textoporid{
+    font-size: 14px;
+    color: red;
+}
+
+/*Referencia por el atributo CLASS*/
+.labelazul{
+    color: blue;
+}
+
+.labelverde{
+    color: green;
+}
+
+
+/*Referencia por cualquier componente*/
+p[name="tercerp"]{
+    font-size: 10px;
+}
+
+p[name="cuartop"]{
+    font-size: 5px;
+}
+
+p[name="quintop"]{
+    font-size: 15px;
+}
+
+p[name]{
+    color: blueviolet;
+}
+
+/*Referencia por combinaciones o Conocidos también como expresiones regulares*/
+p[name="parr"]{
+    color: yellow;
+}
+
+p[name$="aguas"]{
+    color: grey;
+}
+
+p[name*="parr"]{
+    color: orangered;
+}
+
+/*Pseudoclases*/
+p:nth-child(2){
+    background: blue;
+}
