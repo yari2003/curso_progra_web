@@ -38,7 +38,7 @@ p[name]{
 }
 
 /*Referencia por combinaciones o Conocidos también como expresiones regulares*/
-p[name="parr"]{
+p[name^="parr"]{
     color: yellow;
 }
 
@@ -53,4 +53,35 @@ p[name*="parr"]{
 /*Pseudoclases*/
 p:nth-child(2){
     background: blue;
+  
 }
+
+.mitexto:nth-child(2){
+    background: orangered;
+
+}
+.mitexto:nth-child(3){
+    background: yellow;
+}
+
+.mitexto:nth-child(4){
+    background: green;
+}
+
+.mitexto:nth-child(5){
+    background: red;
+}
+
+*{
+    margin: 0px;
+}
+ p:last-child{
+    font-weight: normal;
+    color: white;
+ }
+
+ /*Nuevos selectores*/
+ div >p.mitexto{
+    font-family: "Lucida Sans Unicode";
+ }
+

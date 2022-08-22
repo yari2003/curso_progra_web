@@ -1,7 +1,10 @@
+
 /*Selector universal*/
 
 *{
     margin: 0px;
+    margin-left: 15px;
+    margin-right:15px;
     padding: 0px;
 }
 
@@ -37,6 +40,7 @@ header, section, footer, aside, nav, article, figure, figcaption, hgroup{
     display: block;
 }
 
+/*Centrar*/
 body{
     text-align: center;
 }
@@ -44,40 +48,51 @@ body{
 /*Diseño del templete*/
 
 #divGeneral{
-    width: 900px;
-    margin: 15px auto;
-    text-align: left;
+    width: 1450px;
+    margin: 15px;
+    text-align: center;
 }
 
 #cabecera{
-    background: green;
+    background: rgb(178, 252, 210);
     padding:  5px 15px;
-    color: white;
+    height: 100px;
+    color: black;
+   
 }
 
 #menu{
     background: pink;
     padding: 5px 15px;
+    text-align: left;
+    
 }
 #menu li{
 display: inline-block;
 list-style: none;
-padding:5px ;
+text-align: left;
+padding: 5px;
 font: bold 14px sans-serif;
 }
 
-#seccionPrincipal{
+#SeccionPrincipal{
     float: left;
-    width: 650px;
-    margin: 20px;
+    width: 1020px;
+    height: 300px;
+    margin: 15px;
+    margin-left: 5px;
 }
 
 #sidebar{
     float: left;
-    width: 220px;
+    width: 250px;
+    height: 1000px;
     margin: 20px 0px;
+    margin-left: 82px;
     padding: 20px;
     background: skyblue;
+
+    box-shadow: gold 5px 5px 10px inset;
 }
 
 #footer{

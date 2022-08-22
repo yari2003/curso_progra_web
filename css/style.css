@@ -2,7 +2,8 @@
     background: silver;
     border: 1px solid gray;
     padding: 20px;
-    margin-bottom: 15px;
+    width: 1035px;
+    margin-bottom: 20px;
     border-radius: 10px;
 }
 
@@ -11,6 +12,20 @@ article footer{
     color: red;
 }
 
+
+
 figcaption{
     font: italic 10px sans-serif ;
+}
+
+
+div{
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #000000;
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
