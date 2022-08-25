@@ -1,0 +1,151 @@
+.articulo{
+    background: black;
+    color: white;
+    border: 1px solid gray;
+    padding: 20px;
+    width: 1035px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+article footer{
+    text-align: right;
+    color: green;
+}
+
+
+
+figcaption{
+    font: italic 10px sans-serif ;
+    background: pink;
+    background-position: center;
+    text-align: center;
+    color: black;
+    
+ 
+}
+
+img{
+    transition: all 0.5s linear;
+}
+img:hover{
+    transform: scale(0.9);
+}
+
+
+
+
+div{
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #000000;
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.pag1{
+    background-image: url("https://www.wallpaperuse.com/wallp/80-805080_m.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 240px;
+    margin: -10px;
+    padding: 15px;
+    
+}
+
+.pag2{
+    background-image: url("https://img.freepik.com/vector-premium/paisaje-mar-isla-tesoro-tropical-barco-pirata-vela-fondo-juego-aventura-marina-ninos-dibujos-animados-escena-vector-barco-pirata_102902-5093.jpg?w=2000");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 240px;
+    margin: -10px;
+    padding: 15px;
+    font: bold;
+}
+.pag3{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-blue-sky-white-clouds-silhouette-marathon-sports-poster-background-material-image_181472.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 240px;
+    margin: -10px;
+    padding: 15px;
+    font: bold;
+}
+.pag4{
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-dj-simple-gray-banner-image_172324.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 240px;
+    margin: -10px;
+    padding: 15px;
+    font: bold;
+}
+.pag5{
+    background-image: url("https://i.redd.it/netgp8ipwvfy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 240px;
+    margin: -10px;
+    padding: 15px;
+    font: bold;
+}
+
+.op2{
+    color: white;
+}
+
+.parr{
+    text-align: justify;
+}
+
+
+/*Fechas*/
+time{
+text-align: right;
+}
+
+/*Imagenes*/
+
+.contenedor{
+    display: flex;
+    background: violet;
+    width: 1000px;
+    height:450px ;
+
+    box-sizing: border-box;
+  
+}
+
+.cont{
+    width: 33%;
+    margin-right: -20px;
+    padding: 5px;
+    box-sizing: border-box;
+    
+}
+
+/*imagenes fotos*/
+.fotos{
+    width: 300px;
+    height: 300px;
+    margin: 0px;
+   margin-left: -24px;
+}
+.ulfotos{
+    list-style: none;
+    display: flex;
+  
+}
+
+.lifotos{
+    padding: 5px;
+}
+
+
+
+
+

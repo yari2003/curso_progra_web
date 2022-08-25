@@ -1,4 +1,3 @@
-
 /*Selector universal*/
 
 *{
@@ -43,26 +42,34 @@ header, section, footer, aside, nav, article, figure, figcaption, hgroup{
 /*Centrar*/
 body{
     text-align: center;
+    background-image: url("https://fondosmil.com/fondo/50457.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
 }
 
 /*Diseño del templete*/
 
 #divGeneral{
     width: 1450px;
+    height: 1500px;
     margin: 15px;
     text-align: center;
 }
 
 #cabecera{
-    background: rgb(178, 252, 210);
+    background: rgb(137, 215, 254);
     padding:  5px 15px;
     height: 100px;
+    border: 2px solid violet;
     color: black;
+    
    
 }
 
 #menu{
-    background: pink;
+    background: rgb(41, 131, 184);
     padding: 5px 15px;
     text-align: left;
     
@@ -90,14 +97,22 @@ font: bold 14px sans-serif;
     margin: 20px 0px;
     margin-left: 82px;
     padding: 20px;
-    background: skyblue;
+    background-image: url("https://w0.peakpx.com/wallpaper/989/579/HD-wallpaper-neon-string-3-1920x1080-blue-cyan-light-purple-yellow.jpg");
+    color: white;
+    
+}
 
-    box-shadow: gold 5px 5px 10px inset;
+#sidebar li{
+    list-style: none;
+    padding: 20px;
+    font: bold 18px sans-serif;
+    text-align: center;
 }
 
 #footer{
     clear: both;
     text-align: center;
     padding: 20px;
+    color: white;
     border-top:  2px solid silver;
 }
