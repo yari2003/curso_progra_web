@@ -135,8 +135,18 @@ div{
     font: bold;
 }
 
+
+.pagb{
+  background-color: aqua;
+    width: 240px;
+    margin: -10px;
+    padding: 15px;
+    font: bold;
+}
+
 .op2{
     color: white;
+    
 }
 
 .parr{
@@ -192,7 +202,7 @@ text-align: right;
 
 .video{
     width:1050px ;
-    height:440px ;
+    height:485px ;
     
 }
 
