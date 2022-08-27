@@ -52,7 +52,7 @@ body{
 #divGeneral{
 
     width: 1450px;
-    height: 1820px;
+    height: 1910px;
     margin: 10px;
     text-align: center;
 }
@@ -71,6 +71,7 @@ body{
 
 #menu{
     background: rgb(41, 131, 184);
+    border-radius: 10px;
     border-radius: 0px;
     padding: 5px 15px;
     text-align: left;
