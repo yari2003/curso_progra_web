@@ -17,7 +17,8 @@
 }
 article footer{
     text-align: right;
-    color: green;
+    color: white;
+    font: bold;
 }
 
 
@@ -74,7 +75,7 @@ img{
 
 
 
-
+/*Diseño Aside*/
 div{
     width: 200px;
     margin: 20px;
@@ -171,7 +172,7 @@ text-align: right;
 
 /*imagenes fotos*/
 .fotos{
-    width: 280px;
+    width: 305px;
     height: 260px;
     margin: 0px;
    margin-left: -24px;
@@ -185,5 +186,52 @@ text-align: right;
 
 .lifotos{
     padding: 5px;
+}
+
+/*Pagina videos*/
+
+.video{
+    width:1050px ;
+    height:440px ;
+    
+}
+
+.pagvideos{
+   display: flex;
+   width: 1000px;
+   height: auto;
+   background: pink;
+}
+
+.videos{
+    width: 900px;
+    height: 250px;
+}
+
+.fortnite{
+    width:1000px;
+    height:300px;
+  
+}
+
+/*Iconos footer*/
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+.socials a i{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: rem 0 3rem 0;
+}
+.socials a:hover i{
+    
+    color: palevioletred;
 }
 
