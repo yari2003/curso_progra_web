@@ -1,0 +1,44 @@
+Body{
+    text-align: center;
+    
+    }
+    Header, section, footer, aside, nav, article, figure, figcaption, hgroup{
+    Display: block;
+    }
+    #reproductor{
+    Width: 720px;
+    Margin: 20px auto;
+    Padding:5px;
+    Background: #999999;
+    Border: 1px solid #666666;
+    Border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+    
+    }
+    Nav{
+    Margin: 5px 0px;
+    }
+    #botones{
+    Float:left;
+    Width: 100px;
+    Height: 20px;
+    }
+    
+    #barra{
+    Position: relative;
+    Float:left;
+    Width: 600px;
+    Height: 16px;
+    Padding: 2px;
+    Border: 1px solid #CCCCCC;
+    Background: #EEEEEE;
+    
+    }
+    #progreso{
+    Position: absolute;
+    Width: 0px;
+    Height: 16px;
+    Background: rgba(0,0,150  .2);
+    }
+    
