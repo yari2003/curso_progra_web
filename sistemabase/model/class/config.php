@@ -9,6 +9,7 @@ define('PASSDB', "Usuariodb*123");
 define("DATABASE", "sistema");
 
 #OTROS PARÁMETROS DE CONFIGURACIÓN
+#DEFINE PARA ESPECIFICAR CONSTANTES
 define("RAIZ_APLICACION", dirname(_FILE_));
 define("DEBUG", "true");
 
