@@ -1,0 +1,248 @@
+.articulo{
+    text-align: justify;
+    margin-left: -20px;
+    background: black;
+    color: white;
+    border: 1px solid gray;
+    padding: 15px;
+    width: 1050px;
+   margin-right:-5px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.TituloheaderArticulo{
+    text-align: center;
+}
+article footer{
+    text-align: right;
+    color: white;
+    font: bold;
+}
+
+
+
+figcaption{
+    font: italic 10px sans-serif ;
+    background: pink;
+    background-position: center;
+    text-align: center;
+    color: black;
+    
+ 
+}
+
+/*imagenes index*/
+.imginicio{
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.logo{
+    width: 250px;
+    height: 70px;
+    margin-top: -5px;
+   float: left;
+   transition: none;
+   transform: none;
+   transform-style: none;
+ 
+
+}
+
+#tituloprincipal{
+    text-align: center;
+    margin-right: 200px;
+
+}
+
+
+
+img{
+    transition: all 0.5s linear;
+}
+.fotos:hover{
+    transform: scale(0.9);
+}
+
+.cont:hover{
+    transform: scale(0.9);
+}
+
+
+
+/*Diseño Aside*/
+div{
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #000000;
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.pag1{
+    background-image: url("https://www.wallpaperuse.com/wallp/80-805080_m.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 240px;
+    margin: -10px;
+    padding: 15px;
+    
+}
+
+.pag2{
+    background-image: url("https://img.freepik.com/vector-premium/paisaje-mar-isla-tesoro-tropical-barco-pirata-vela-fondo-juego-aventura-marina-ninos-dibujos-animados-escena-vector-barco-pirata_102902-5093.jpg?w=2000");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 240px;
+    margin: -10px;
+    padding: 15px;
+    font: bold;
+}
+.pag3{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-blue-sky-white-clouds-silhouette-marathon-sports-poster-background-material-image_181472.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 240px;
+    margin: -10px;
+    padding: 15px;
+    font: bold;
+}
+.pag4{
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-dj-simple-gray-banner-image_172324.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 240px;
+    margin: -10px;
+    padding: 15px;
+    font: bold;
+}
+.pag5{
+    background-image: url("https://i.redd.it/netgp8ipwvfy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 240px;
+    margin: -10px;
+    padding: 15px;
+    font: bold;
+}
+
+
+.pagb{
+  background-color: aqua;
+    width: 240px;
+    margin: -10px;
+    padding: 15px;
+    font: bold;
+}
+
+.op2{
+    color: white;
+    
+}
+
+.parr{
+    text-align: justify;
+   
+}
+
+
+/*Fechas*/
+time{
+text-align: right;
+}
+
+/*Imagenes accion*/
+
+.contenedor{
+    display: flex;
+    background: violet;
+    width: 1000px;
+    height:450px ;
+
+    box-sizing: border-box;
+  
+}
+
+.cont{
+    width: 33%;
+    margin-right: -20px;
+    padding: 5px;
+    box-sizing: border-box;
+    
+}
+
+/*imagenes fotos*/
+.fotos{
+    width: 305px;
+    height: 260px;
+    margin: 0px;
+   margin-left: -24px;
+   
+}
+.ulfotos{
+    list-style: none;
+    display: flex;
+  
+}
+
+.lifotos{
+    padding: 5px;
+}
+
+/*Pagina videos*/
+
+.video{
+    width:1050px ;
+    height:485px ;
+    
+}
+
+.pagvideos{
+   display: flex;
+   width: 1000px;
+   height: auto;
+   background: pink;
+}
+
+.videos{
+    width: 900px;
+    height: 250px;
+}
+
+.fortnite{
+    width:1000px;
+    height:300px;
+  
+}
+
+/*Iconos footer*/
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+.socials a i{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.socials {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: rem 0 3rem 0;
+}
+.socials a:hover i{
+    
+    color: palevioletred;
+}
+
+/*footer*/

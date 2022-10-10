@@ -6,7 +6,7 @@
 define("SERVER", "127.0.0.1");
 define("USERDB", "usuariodb");
 define('PASSDB', "Usuariodb*123");
-define("DATABASE", "sistema");
+define("DATABASE", "Sistema");
 
 #OTROS PARÁMETROS DE CONFIGURACIÓN
 #DEFINE PARA ESPECIFICAR CONSTANTES

@@ -16,42 +16,43 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-<section class="vh-100">
-    <div class="container-fluid h-custom">
-        <div class="row d-flex justify-content-center aling-items-center h-100">
-            <div class="col-md-9 col-lg-6 col-xl-5">
-                <img src="assets/img/logos/imagen1.jpg" class="img-fluid"> 
-
-</div> 
-            <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-            <form class="form" method="POST" action="">
-                <div class="divider d-flex aling-items-center my-4">
-                    <p class="text-center fw-bold mx-2 mb-0">BIENVENIDO</p>
-
+    <section class="vh-100">
+        <div class="container-fluid h-custom">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                
+                <div class="col-md-9 col-lg-6 col-xl-5">
+                    <img src="assets/img/logos/logo.jpg" class="img-fluid">
                 </div>
 
-                <!-- Input usuario -->
-                <div class="form-outline mb4">
-                    <label class="form-label" for="inUsuario">Usuario</label>
-                    <input type="text" class="form-control form-control-lg" placeholder="Ingese su usuario" id="inUsuario" name="inUsuario"/>
+                <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
 
+                    <form class="form" method="POST" action="controller/login/loginController.php">
+
+                        <div class="divider d-flex align-items-center my-4">
+                            <p class="text-center fw-bold mx-2 mb-0">BIENVENIDO</p>
+                        </div>
+
+                        <!-- INPUT USUARIO -->
+                        <div class="form-outline mb4">
+                            <label class="form-label" for="inUsuario">Usuario:</label>
+                            <input type="text" class="form-control form-control-lg" placeholder="Ingrese su usuario" id="inUsuario" name="inUsuario"/>
+                        </div>
+
+                        <!-- INPUT PASSWORD -->
+                        <div class="form-outline mb4">
+                            <label class="form-label" for="inPassword">Password:</label>
+                            <input type="password" class="form-control form-control-lg" placeholder="Ingrese su password" id="inPassword" name="inPassword"/>
+                        </div>
+
+                        <div class="text-center text-lg-start mt-4 pt-2">
+                            <button type="submit" class="btn btn-primary btn-lg">Iniciar Sesión</button>
+
+                        </div>
+                    </form>
                 </div>
-                    <!-- Input password -->
-                    <div class="form-outline mb4">
-                        <label class="form-label" for="inPassword">Password</label>
-                        <input type="password" class="form-control form-control-lg" placeholder=>
-
-                    </div class="text-center text-lg-start mt-4 pt-2">
-                    <button type="submit" class="btn btn-primary btn-lg"> Iniciar Sesión </button>
-                    <div>
-
-                    </div>
-            </form>
-
-
+            </div>
         </div>
 
-    </div>
-</section>
+    </section>
 </body>
 </html>
