@@ -23,7 +23,7 @@
                         Menú 1
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item " href="#" onclick="cargarContenido('view/Usuarios/usuariosView.php');">Usuarios</a></li>
+                        <li><a class="dropdown-item " href="" onclick="cargarContenido('view/Usuarios/usuariosView.php');">Usuarios</a></li>
                         <li><a class="dropdown-item" href="#">Opción 2</a></li>
                         <li><a class="dropdown-item" href="#">Opción 3</a></li>
                     </ul>

@@ -26,7 +26,7 @@
 
                 <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
 
-                    <form class="form" method="POST" action="controller/login/loginController.php">
+                    <form class="form" method="POST" action="controller/Login/loginController.php">
 
                         <div class="divider d-flex align-items-center my-4">
                             <p class="text-center fw-bold mx-2 mb-0">BIENVENIDO</p>

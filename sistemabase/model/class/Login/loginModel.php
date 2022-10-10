@@ -15,7 +15,7 @@ class loginModel {
                 FROM
                     users
                 WHERE
-                    UPPER(users) = UPPER('$user')
+                    UPPER(user) = UPPER('$user')
                     and password = '$pass'";
 
         $resultado = mysqli_query($conexion, $sql);
