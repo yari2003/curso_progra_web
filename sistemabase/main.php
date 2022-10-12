@@ -24,7 +24,7 @@ include 'template/menu.php'
 
         <main class="col-md-9 ms-sm-auto col-lg-12 px-md-4">
             <div class="container" id="contenedorPrincipal">
-            
+
             </div>
         </main>
 

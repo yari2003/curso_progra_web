@@ -20,12 +20,11 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle menu_opcion" href="#" id="navbarDropdownMenuLink" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
-                        Menú 1
+                        Módulo Usuarios
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item " href="" onclick="cargarContenido('view/Usuarios/usuariosView.php');">Usuarios</a></li>
-                        <li><a class="dropdown-item" href="#">Opción 2</a></li>
-                        <li><a class="dropdown-item" href="#">Opción 3</a></li>
+                        <li><a class="dropdown-item " href="#" onclick="cargarContenido('view/Usuarios/usuariosView.php');">Usuarios</a></li>
+                        
                     </ul>
                 </li>
             </ul>
